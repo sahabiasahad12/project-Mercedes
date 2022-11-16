@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700;800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+
+}
+.announcment_bar{
+    text-align: center;
+    background: black;
+    padding: 10px;
+}
+.announcment_bar p{
+    font-size: 20px;
+    color: white;
+}
+.announcment_bar p a{
+    padding: 6px 10px;
+    display: inline-block;
+    background-color: white;
+    color: #030318;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition-duration: 0.4s;
+}
+.announcment_bar p a:hover{
+	background-color: #f10000;
+}
+.container{
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: white;
+
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo img{
+    max-width: 100%;
+}
+nav{
+    flex-basis: 80%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li{}
+nav ul li a{
+    color: black;
+    font-size: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 800;
+    transition-duration: 0.4s;
+}
+nav ul li a:hover{
+	color: white;
+	background-color: black;
+	border-radius: 30px;
+}
+.product_section{
+	background: url("https://th.bing.com/th/id/R.5742c6f44388c96724cda14be98529ed?rik=Yd8%2fCBLoSnGn%2bg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f09%2fMercedes-Amg-Desktop-Background.jpg&ehk=T9kWR%2fRk9kdhjVE%2boOgABK%2fG1j5LtZlssuJ5lvYVhbk%3d&risl=&pid=ImgRaw&r=0");
+	background-size: cover;
+}
+.product_box{
+	max-width: 100%;
+	margin: auto;
+	box-shadow: 0px 0px 35px 0px #1a070759;
+	padding:20px;
+	border-radius:10px;
+	transition-duration: 0.3s;
+}
+.product_box:hover{
+	box-shadow: 0px 0px 0px 0px #1a070759;
+}
+.product_box > img{
+	border-radius: 10px;
+	max-width: 100%;
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+	filter: grayscale(70%);
+	transition-duration: 0.3s;
+}
+.product_box img:hover{
+	filter: grayscale(0%);
+}
+.product_box h1{
+	font-size: 30px;
+	font-weight: 500;
+	color: #03a5f3;
+}
+.product_box h2{
+	font-size: 30px;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	color: red;
+}
+.product_box h2 s{
+	font-size: 22px;
+	font-weight: 300;
+	margin-left: 15px;
+}
+.product_box p{
+	font-size: 15px;
+	line-height: 1.4em;
+	margin-top: 10px;
+	color: #386241;
+}
+.product_box ul{
+	padding-left: 30px;
+	margin-bottom: 10px;
+	color: #c72d15;
+}
+.product_box ul li{
+	font-size: 15px;
+	line-height: 1.4em;
+
+
+}
+.product_box ul li strong{}	
+.btn{
+	background: #0a0000;
+	color: #f5f1f1;
+	padding: 10px 40px;
+	width: 100%;
+	border:0;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-radius: 30px;
+	transition-duration: 0.4s;
+}
+.btn img{
+	width: 20px;
+}
+.btn:hover{
+	background: red;
+}
+
+
+.variable{
+	margin: 10px 0;
+}
+.version{}
+.version button{
+	border:0;
+	padding: 3px 15px;
+	background: blue;
+	color: #973411;
+	border-radius: 10px;
+}
+.type{}
+.type button{
+	border:2px solid;
+	padding: 10px;
+	border-radius: 5px;
+	background: #100302;
+}
+.type button > img{
+	width: 30px;
+	height: 30px;
+	object-fit: cover;
+}
+.column{
+	flex-basis: 33.33%;
+	padding: 10px;
+	box-sizing: border-box;
+}
